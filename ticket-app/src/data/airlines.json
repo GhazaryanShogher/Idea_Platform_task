@@ -1,0 +1,9 @@
+{
+    "airlines": [
+      { "code": "TK", "name": "Turkish Airlines", "logo": "/assets/logos/TK.png" },
+      { "code": "S7", "name": "S7 Airlines", "logo": "/assets/logos/S7.png" },
+      { "code": "SU", "name": "Aeroflot", "logo": "/assets/logos/SU.png" },
+      { "code": "BA", "name": "British Airways", "logo": "/assets/logos/BA.png" }
+    ]
+  }
+  

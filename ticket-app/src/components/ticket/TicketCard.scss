@@ -1,0 +1,103 @@
+.ticketCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .airlines {
+            width: 95px;
+            font-size: 24px;
+            font-weight: 700;
+            color: #323e87;
+            line-height: 0.9;
+        }
+
+        img {
+            border-radius: 50%;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+
+    &__aside {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-inline-end: 20px;
+        padding-inline-start: 20px;
+        border-right: 1px solid rgba(242, 246, 249, 255);
+
+        h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        button {
+            background-color: #ff6d00;
+            color: white;
+            height: 50px;
+            width: 160px;
+            margin-top: 10px;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
+.ant-card-body {
+    padding: 0 !important;
+}
+
+.cardContainer {
+    margin-bottom: 25px;
+    width: 600px;
+    padding-right: 10px;
+}
+
+.airlineVector {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infoAboutTime {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+
+    h2 {
+        margin: 5px;
+    }
+}
+
+.infoAboutDate {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+    width: 400px;
+    box-sizing: border-box;
+
+    div {
+        text-align: left;
+    }
+
+    div:last-child {
+        text-align: right;
+    }
+
+    p {
+        margin: 3px;
+    }
+
+    .airportName {
+        font-weight: 600;
+    }
+}
